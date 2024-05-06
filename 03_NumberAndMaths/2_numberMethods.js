@@ -21,3 +21,24 @@ console.log(priceCar.toLocaleString());           // .toLocaleString() is used t
 
 console.log(priceCar.toLocaleString('en-IN'));
 // Output: 12,50,000
+
+const int = "10"
+console.log(typeof(int));   // string type
+
+const newIntVal = parseInt(int)                 // Convert string into number and same we have for float type too 'parseFloat'  
+console.log(typeof(newIntVal));     // number type
+
+/*
+    ➡️ Most commonly methods used with number data type
+    
+    🔸.toString()
+    🔸.toFixed()
+    🔸.toPrecision()
+    🔸.toLocaleString()
+    🔸parseInt()
+    🔸parseFloat()
+
+*/
+
+
+

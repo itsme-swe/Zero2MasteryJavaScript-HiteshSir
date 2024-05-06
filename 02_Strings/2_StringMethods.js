@@ -45,7 +45,23 @@ console.log(str1.indexOf('l'));             // .indexOf() return the index of fi
 // Output: 2
 
 
+/*
+    ➡️ Most commonly methods used with string data type
 
+    🔸.length
+    🔸.toUpperCase( )
+    🔸.toLowerCase( )
+    🔸.charAt( index_val )
+    🔸.substring( start_index, end_index )
+    🔸.slice( start_index, end_index )
+    🔸.trim( )
+    🔸.replace( 'valToBeReplaced', 'ValToBePlaced' )  #val = value
+    🔸.includes( value )      return: boolean value
+    🔸.split( '' )  convert string into array
+    🔸.concat( )
+    🔸.indexOf( )
+
+*/
 
 
 
