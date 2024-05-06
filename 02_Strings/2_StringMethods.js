@@ -31,6 +31,9 @@ console.log(url.includes('harsh'));         // .includes('value') method return 
 
 
 
+const companyName = "Hyundai-Group"
+console.log(companyName.split('-'));        // .split('') method is used to convert string into Array on given input
+
 
 
 
