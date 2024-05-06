@@ -4,11 +4,11 @@ let ame = "Harsh"  // String type
 
 let age = 31    // Number type
 
-let isLogggedIn = true  // Boolean 
+let isLogggedIn = true  // Boolean type 
 
-let state;      // Udefined 
+let state;      // Udefined type
 
-const id = Symbol('123')
+const id = Symbol('123')    // Symbol type
 
 console.log(typeof age);
 
@@ -33,5 +33,14 @@ console.log(typeof age);
     1.  Object
     2.  Array
     3.  Functions
+
+*/
+
+// ********************* Memory Management ********************************
+
+/*
+1. Stack Memory ( All the primitive types are stored in Stack Memory)
+
+2. Heap Memory ( All the non- primitive types are stored in Heap Memory)
 
 */
