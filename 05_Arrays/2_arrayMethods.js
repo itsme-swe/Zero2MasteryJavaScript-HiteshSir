@@ -32,6 +32,7 @@ console.log(newArr);        // [ 2, 5, 8, 10, 12, 15 ]
 console.log(mynewArr);      // 2,5,8,10,12,15
 
 /****************slice() & splice()*********/
+
 console.log("Original Array: ", newArr);
 // Output: Original Array:  [ 2, 5, 8, 10, 12, 15 ]
 
