@@ -27,4 +27,26 @@ const max = 20
 console.log(Math.floor(Math.random() * (max - min + 1) + min));
 
 
+console.log(Math.pow(2,3));         // Returns the base to the exponent power.
+// Output: 8 (2 raised to the power of 3)  
 
+console.log(Math.PI);       // A mathematical constant representing the ratio of the circumference of a circle to its diameter.
+// Output: 3.141592653589793
+
+
+
+
+/*
+    ➡️ Most commonly methods used with Math Object
+
+    🔸Math.abs()
+    🔸Math.round()
+    🔸Math.ceil()
+    🔸Math.floor()
+    🔸Math.min()
+    🔸Math.max()
+    🔸Math.pow()
+    🔸Math.random()
+    🔸Math.PI
+
+*/
