@@ -35,6 +35,18 @@ const companyName = "Hyundai-Group"
 console.log(companyName.split('-'));        // .split('') method is used to convert string into Array on given input
 
 
+const str1 = "Hello"
+const str2 = "World"
+
+let greeting = str1.concat(' ', str2)       // .concat() joins to strings and return new string
+console.log(greeting);      // Hello World
+
+console.log(str1.indexOf('l'));             // .indexOf() return the index of first occurence of specified substring
+// Output: 2
+
+
+
+
 
 
 
