@@ -35,15 +35,27 @@ console.log(Array.of(score1, score2, score3));      // .of() convert any variabl
 /*  ➡️ Most commonly methods used with array 
 
     🔸.push(val)                        --- used to add values
+    
     🔸.pop()                            --- used to remove values from last        
+    
     🔸.unshift(val)                     --- used to add value in starting
+    
     🔸.shift()                          --- used to remove the value from starting
+    
     🔸.icludes(val)                     --- used to check whether the value is present or not 
+    
     🔸.join()                           --- convert array to string
+    
     🔸.slice(start_index, end_index)    --- Return new array but donot change our original array
+    
     🔸.splice(start_index, end_index)   --- Return new array but change our original array
+    
     🔸.concat()         -- Join two array    
+    
     🔸Spread Operator(...) Join two array
-    🔸Array.from() 
+    
+    🔸Array.from("Harsh")    // Output: [ 'H', 'a', 'r', 's', 'h' ]
+    
     🔸Array.of()
+    
 */
