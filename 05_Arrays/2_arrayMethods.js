@@ -23,7 +23,7 @@ console.log(myArray);       // Output: [ 5, 10, 30 ]
 console.log(myArray.includes(45));      // .includes() return boolean value
 // Output: false      
 
-/*****************Declaring new Array***/ 
+/*****************◽ Declaring new Array***/ 
 const  newArr = [2, 5, 8, 10 , 12, 15]
 
 const mynewArr = newArr.join()      // .join() method convert array into string
@@ -31,7 +31,7 @@ const mynewArr = newArr.join()      // .join() method convert array into string
 console.log(newArr);        // [ 2, 5, 8, 10, 12, 15 ]
 console.log(mynewArr);      // 2,5,8,10,12,15
 
-/****************slice() & splice()*********/
+/****************◽slice() & splice()*********/
 
 console.log("Original Array: ", newArr);
 // Output: Original Array:  [ 2, 5, 8, 10, 12, 15 ]

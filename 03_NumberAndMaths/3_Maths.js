@@ -40,13 +40,21 @@ console.log(Math.PI);       // A mathematical constant representing the ratio of
     ➡️ Most commonly methods used with Math Object
 
     🔸Math.abs()
+    
     🔸Math.round()
+    
     🔸Math.ceil()
+    
     🔸Math.floor()
+    
     🔸Math.min()
+    
     🔸Math.max()
+    
     🔸Math.pow()
+    
     🔸Math.random()
+    
     🔸Math.PI
 
 */

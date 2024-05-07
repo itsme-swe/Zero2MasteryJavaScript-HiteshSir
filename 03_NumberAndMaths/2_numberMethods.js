@@ -16,7 +16,7 @@ console.log(othernumber.toPrecision(5));          // .toPrecision() is used to c
 
 const priceCar = 1250000
 
-console.log(priceCar.toLocaleString());           // .toLocaleString() is used to convert number into your local language format but by default they are set accordig to US standards
+console.log(priceCar.toLocaleString());      // .toLocaleString() is used to convert number into your local language format but by default they are set accordig to US standards
 // Output: 1,250,000
 
 console.log(priceCar.toLocaleString('en-IN'));
@@ -25,17 +25,22 @@ console.log(priceCar.toLocaleString('en-IN'));
 const int = "10"
 console.log(typeof(int));   // string type
 
-const newIntVal = parseInt(int)                 // Convert string into number and same we have for float type too 'parseFloat'  
+const newIntVal = parseInt(int)               // Convert string into number and same we have for float type too 'parseFloat'  
 console.log(typeof(newIntVal));     // number type
 
 /*
     ➡️ Most commonly methods used with number data type
     
     🔸.toString()
+    
     🔸.toFixed()
+    
     🔸.toPrecision()
+    
     🔸.toLocaleString()
+    
     🔸parseInt()
+    
     🔸parseFloat()
 
 */
