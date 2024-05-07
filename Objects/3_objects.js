@@ -27,7 +27,8 @@ const obj1 = {1: "a", 2: "b", 3: "c"}
 
 const obj2 = {4: "d", 5: "e", 6: "f"}
 
-const newObj = {...obj1, ...obj2}       // Here we are using spread operator 
+const newObj = {...obj1, ...obj2}       // Here we are using 🔸"spread operator" 
 
 console.log(newObj);
 // Output: { '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
+
