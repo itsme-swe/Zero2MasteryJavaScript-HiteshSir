@@ -1,4 +1,6 @@
-/*****************◽Here we are using " rest oprator " to pass number of arguments. We use rest(...) operator generally at place where we do not know the size of arguments customer will pass ****************/
+/*
+    ◽Here we are using " rest oprator " to pass number of arguments. We use rest(...) operator generally at place where we do not know the size of arguments customer will pass
+ */
 
 function calculateCartPrice(...num1) {
     return num1
@@ -9,7 +11,7 @@ console.log(output);
 // Output: [ 10, 20, 30, 40, 50 ]   " rest operator return values in array form " 
 
 
-/**************************◽ Handling Objects in function **************/
+/*******◽ Handling Objects in function **************/
 
 const user = {
     name: "Harsh",
@@ -25,7 +27,7 @@ const objOutput = handleObject(user)    // When we creating function for object 
 console.log(objOutput);
 
 
-/**************************◽ Handling Array in function **************/
+/********◽ Handling Array in function **********/
 
 /* Here we are creating array and we need to create a function to return it's second value */
 

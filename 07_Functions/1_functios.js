@@ -1,12 +1,12 @@
 // Creating function
 
-function addTwonumber(num1, num2){      // Passing values while defining function is know as parameters
+function addTwonumber(num1, num2){      // Passing values inside (val1, val2) while defining function is know as parameters
     console.log((num1 + num2));
      
     
 }
 
-const result = addTwonumber(5, 5)        // Passing values while calling functions is know as arguments
+const result = addTwonumber(5, 5)        // Passing values inside (5, 5) while calling functions is know as arguments
 // Output: 10
 
 console.log(result);
@@ -24,9 +24,13 @@ console.log(finalResult);
 // Output: 60
 
 
-/***************************************************************/
 
-// What if user didn't pass any argument to the function, so to deal with such situation we'll be using if else statement inside function
+
+/*
+
+◽What if user didn't pass any argument to the function, so to deal with such situation we'll be using if else statement inside function.
+
+*/
 
 function addThreeNum(num1, num2, num3){
     // Here if user did not pass any argument then it will return undefined and then only we'll enter in this if condition 
