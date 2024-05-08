@@ -26,3 +26,23 @@ console.log(finalResult);
 
 /***************************************************************/
 
+// What if user didn't pass any argument to the function, so to deal with such situation we'll be using if else statement inside function
+
+function addThreeNum(num1, num2, num3){
+    // Here if user did not pass any argument then it will return undefined and then only we'll enter in this if condition 
+    if (!arguments.length){          // " arguments.length === 0 " we can also pass condition in this form too
+        console.log("Please enter the valid numbers");
+        return;
+    }
+    return num1 + num2 + num3
+}
+
+const total = addThreeNum()
+console.log(total);
+// Output: 35
+
+/*
+
+    🔶 Note: "arguments.length": This property returns the number of arguments passed to the function.
+
+ */
