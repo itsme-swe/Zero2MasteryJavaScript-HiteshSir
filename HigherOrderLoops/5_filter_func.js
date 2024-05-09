@@ -6,6 +6,6 @@
 
 const arr = [2, 10, 5, 8, 4, 30, 60, 50 ]
 
-const value = arr.filter( (item) => item > 10 )         // condition is value of item should be greater than 10
+const value = arr.filter( (item) => item > 10 )         // Here the condition is value of item should be greater than 10
 
 console.log(value);     // Output: [ 30, 60, 50 ]
