@@ -20,3 +20,6 @@ Selectors are used to efficiently select and manipulate specific selected elemen
 **5. querySelectorAll :** Selects all elements that match a specified selector. 
 
     let elements = document.querySelectorAll("p.myClass");
+
+## Updating Existing Content 
+**1. innerHTML :** Use to **get** and **set** the HTML Elements
