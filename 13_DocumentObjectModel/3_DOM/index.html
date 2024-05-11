@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Class 3</title>
+    <style>
+        .bg-color{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body class="bg-color">
+    
+</body>
+<script>
+    const div = document.createElement('div')   // Used to create new Element
+    console.log(div);
+
+    div.className = "main"      // Settig className in <div> elemet
+    div.id = Math.round(Math.random() * 10 + 1)   // Setting id in <div> element using Math library
+    
+    // Setting custom attributes by using " .setAttributes() "
+    div.setAttribute('title', 'generated-title')
+    
+    //◽ Adding content inside Elements
+
+    // div.innerHTML = "<h2>Chai aur Code</h2"     // 🔸Method 1
+
+    const addText = document.createTextNode("New way to add text to the element")
+    div.appendChild(addText)  // 🔸Method 2
+
+    // NNow adding whole <div> element to the body
+    
+    document.body.appendChild(div)
+    
+    
+    
+
+
+    
+
+</script>
+</html>
