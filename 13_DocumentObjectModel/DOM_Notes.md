@@ -22,4 +22,10 @@ Selectors are used to efficiently select and manipulate specific selected elemen
     let elements = document.querySelectorAll("p.myClass");
 
 ## Updating Existing Content 
-**1. innerHTML :** Use to **get** and **set** the HTML Elements
+**1. innerHTML :** Use to **get** and **set** the HTML Elements including any child elements and their HTML markup.
+
+**2. innerText :** Used to display only visisble text within an element, excluding any child element. 
+
+**3. outerHTML :** Display the HTML content of an element, including the element itself, as a string.
+
+**3. textContent :** Display the text content of an element and all its descendants, excluding any HTML markup.

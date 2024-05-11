@@ -57,5 +57,11 @@ console.log(Array.of(score1, score2, score3));      // .of() convert any variabl
     🔸Array.from("Harsh")    // Output: [ 'H', 'a', 'r', 's', 'h' ]
     
     🔸Array.of()
+
+    ◽Note :- Difference b/w 'Array.from()' and 'Array.of()' Method:
+              
+              1. 'Array.of()' is useful when we want to create an array with specific elements.
+              
+              2. 'Array.from()' allow us to create new array from array-like or iterable object, such as NodeList, string or Set and Map.
     
 */
