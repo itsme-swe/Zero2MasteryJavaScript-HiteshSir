@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM class 4</title>
+    <style>
+        .bg {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body class="bg">
+    <ul class="lang">
+        <li>JavaScript</li>
+    </ul>
+</body>
+
+<script>
+
+    function addLang(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.lang').appendChild(li)
+
+    }
+    addLang('Python')
+    addLang('Java')
+
+// Optmized code used by large companies to add element 
+    function addOptimizedLang(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.lang').appendChild(li)
+    }
+    addOptimizedLang('Ruby')
+
+// Now learning to edit the values 
+const editing = document.querySelector('li:nth-child(2)')  // Selection second language
+const newEdit = document.createElement('li')
+newEdit.textContent = "RUST"
+editing.replaceWith(newEdit)
+
+
+// Now removing Elements
+const removeLang = document.querySelector('li:last-child')
+removeLang.remove()     // Here after using .remove() "RUST" will be deleted
+
+
+</script>
+</html>
