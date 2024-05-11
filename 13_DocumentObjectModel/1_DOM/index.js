@@ -38,7 +38,8 @@ console.log(convertedElement);      // Output: [div.count, div.count, div.count,
 
 // Now we'll be iterating over the elements using forEach() and changing the color of the elements.
 convertedElement.forEach( (li) => {
-    li.style.color = "orange"
+    li.style.color = "orange";
+    li.style.backgroundColor = "yellow"
 } )
 
 
