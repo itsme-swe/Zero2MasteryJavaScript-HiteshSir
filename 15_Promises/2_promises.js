@@ -14,3 +14,12 @@ promise2.then(function(user){
 
 //◽Now creating Promise to handle errors 
 
+const promise3 = new Promise((resolve, reject) => {
+    setTimeout(function(){
+        resolve({carname: "Panamera", ownername: "Harsh", country: "India" })
+    }, 2000)
+})
+// Here parameter as object passed in resolve() will be handled by then() and then() also takes callback function 
+promise3.then(function(user){
+    console.log(user);  
+})
