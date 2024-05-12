@@ -11,9 +11,9 @@ const promise5 = new Promise((resolve, reject) => {
             reject("ERROR: Internal Error")
         }
     }, 2000)
-})
+});
 
-async function consumePromise(){
+(async function consumePromise(){
     try {
         const response = await promise5
         console.log(response);
@@ -22,9 +22,8 @@ async function consumePromise(){
         console.log(error);  
 
     }  
-}
+})()        // Here we are using IIFI
 
-consumePromise()
 
 /*
 🔶 Note: Whenever we'll be using "async await" function to handle promise and if we received any error so we need to use "try()& catch()" block
