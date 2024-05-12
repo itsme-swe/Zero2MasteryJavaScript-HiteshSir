@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+
+    <style>
+        .bg-black{
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body class="bg-black">
+
+    <div >
+        <h1 id="title" class="heading">Learning SetTimeout<span> By Akshay Saii</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, doloremque.</p>
+    </div>
+
+    <div class="count">Monday</div>
+    <div class="count">Tuesday</div>
+    <div class="count">Wednesday</div>
+    <div class="count">Thursday</div>
+    <div class="count">Friday</div>
+</body>
+
+<script>
+
+    function x(){
+        let i = 1
+    setTimeout(function(){
+        console.log(i);   
+    },1000);
+    console.log('Hello World');
+    
+    }
+    x()
+
+    /*  
+        🔸Output for upper code snippet will be first "Hello World will be printed and then setTimeout function will execute". JS donot wait for anyone.
+        And, setTimeout() function takes callBack function as parameter
+    */
+
+/* Here we'll be printing numbers from 1 to 5 using setTimeout() function */
+
+function count(){
+    for(let i = 1; i <= 5; i++){
+        setTimeout(()=>{
+            console.log(i);
+            
+        }, i*2000)
+    }
+}
+count()
+    
+    
+</script>
+</html>
