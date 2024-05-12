@@ -23,3 +23,7 @@ new Promise(function(resolve, reject){
     console.log(error); 
     //🔸Output: ERROR: Something went wrong --- if we received error in our promise then this will be our output.
 })
+.finally(function(){
+   console.log("The promise has been rtesolved or rejected");
+   
+})
