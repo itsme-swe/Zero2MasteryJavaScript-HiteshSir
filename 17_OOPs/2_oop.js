@@ -19,6 +19,8 @@ const userFour = new User('Madona', 5, false)
 
 console.log(userThree); // Output: User { username: 'Alex', loginCount: 10, isLoggedIn: true }
 console.log(userFour);  // Output: User { username: 'Madona', loginCount: 5, isLoggedIn: false }
+console.log(userThree.constructor); // Output: [Function: User]
+
 
 /*
 🔸Firstly the empty object is created.
