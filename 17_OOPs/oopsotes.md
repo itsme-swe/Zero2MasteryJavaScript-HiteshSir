@@ -21,7 +21,7 @@
     console.log(user.username);
 
     console.log(user.getUserDetails());   
-      
+
     /*
     Output: Current Context 
     {
@@ -33,6 +33,17 @@
     */
 
 🔸 Costructor function
+
+        function User(username, loginCount, isLoggedIn){
+            this.username = username;       // Here left handside is for variable and right handside is the parameter which we are passing 
+            this.loginCount = loginCount;
+            this.isLoggedIn = isLoggedIn;
+
+        return this
+    }
+
+    const userThree = new User('Alex', 10, true)
+    const userFour  = new User('Madona', 5, false)
 
 🔸 Prototypes
 
