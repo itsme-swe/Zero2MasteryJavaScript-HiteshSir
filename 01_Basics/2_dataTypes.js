@@ -1,6 +1,6 @@
 // alert("Hello")      // Only allowed in browser side
 
-let ame = "Harsh"           // String type
+let name = "Harsh"           // String type
 
 let age = 31                // Number type
 
