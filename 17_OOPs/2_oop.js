@@ -12,7 +12,7 @@ const userOne = User('Harsh', 5, true)
 const userTwo = User('Vandana', 10, false)
 
 console.log(userOne);
-console.log(userTwo);       // Here the output will be usertwo will replace the values of userOne so this will create mess for the coders. To rectifythis error of overlapping the values we will use "new" keyword.
+console.log(userTwo);       // Here the output will be userTwo will replace the values of userOne so this will create mess for the coders. To rectifythis error of overlapping the values we will use "new" keyword.
 
 const userThree = new User('Alex', 10, true)
 const userFour = new User('Madona', 5, false)
