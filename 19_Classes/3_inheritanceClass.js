@@ -27,12 +27,19 @@ class Teacher extends User{
 
 const faculty = new Teacher("Alia", "alia@gmail.com", "123Alaya")
 console.log(faculty);
+/*Output:
+Teacher {
+  username: 'Alia',
+  email: 'alia@gmail.com',
+  password: '123Alaya'
+}
+*/
 
 faculty.addCourse('React')      // Output: A new course React was added by Alia.
 
 console.log(faculty);
 
-/*
+/* Output:
 Teacher {
   username: 'Alia',
   email: 'alia@gmail.com',
