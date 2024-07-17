@@ -1,6 +1,6 @@
 /*
 
-◽ Filter() method used to filter out elements based on certain conditions. The difference between filter() and forEach() function is filter() return new array to us and forEach() didnot return any value to us. .🔸filter( () => {} ) method also takes callBack fuction as parameter. And we need to store filter method in some new variable.
+◽ Filter() method used to filter out elements based on certain conditions. The difference between filter() and forEach() function is filter() return new array to us and forEach() did not return any value to us. . 🔸filter( () => {} ) method also takes callBack fuction as parameter. And we need to store filter method in some new variable.
 
 */
 
